@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30a9f587-7ff2-4a23-ab11-62c076164931" name="Default Changelist" comment="完成版 一些小问题解决了">
+      <change afterPath="$PROJECT_DIR$/../.idea/ToGit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190514@图书管理系统.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springmvc_maven/src/main/java/com/mec/controller/indexcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springmvc_maven/src/main/resoruces/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springmvc_maven/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springmvc_maven/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/annotation/Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/annotation/ID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/annotation/Table.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/ClassPathApplicationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/ClassTableDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/ClassTableFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/DataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/PropertyColumn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/core/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/BKmanageView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/IBKmanageView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/LoginView$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/LoginView$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/LoginView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/MainView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/fatherview/Windowsadapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/model/LoginModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/sonview/Error1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/sonview/Error2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/sonview/Success1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/sonview/Success2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/com/mec/bookmanage/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/database.cfg.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/j2r.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/ToGit/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_auto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/model/CarModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/model/PlaceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Allinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Allinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/InorOut$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/InorOut$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/InorOut$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/InorOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Oneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/com/mec/bookmanage/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/j2r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/model/CarModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/model/PlaceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/Allinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/GetOneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/InorOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/Oneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/com/mec/bookmanage/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/j2r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../停车管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/DatabaseConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/USPmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/model/AddModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/AddPackage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/AddPackage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/AddPackage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/AddPackage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/AddPackage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/AddPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Allinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Allinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Getinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Getinfo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Getinfo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Getinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Oneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/com/mec/UspPackage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/DatabaseConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/fatherview/USPmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/model/AddModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/AddPackage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Allinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Getinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Oneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/com/mec/UspPackage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../包裹跟踪管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/model/CostModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/model/DiagnoseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/model/DrugModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/model/PpinfoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/AddPatient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/AddPatient$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/AddPatient$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/AddPatient$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/AddPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Allinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Allinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Cost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/CostF$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/CostF$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/CostF$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/CostF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Getmoney$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Getmoney$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Getmoney$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Getmoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Illness$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Illness$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Illness$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Illness$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Illness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/sonview/Success3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/com/mec/bookmanage/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/model/CostModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/model/DiagnoseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/model/DrugModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/model/PpinfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/AddPatient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Allinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Cost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/CostF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Getmoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Illness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/sonview/Success3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/com/mec/bookmanage/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../医院管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/DatabaseConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/model/BookModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/model/BorrowModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/AddBook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/AddBook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/AddBook$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/AddBook$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/AddBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/CheckAll$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/CheckAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/DeleteBook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/DeleteBook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/DeleteBook$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/DeleteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Error3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Error4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Success3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/sonview/Success4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/com/mec/bookmanage/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/j2r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/DatabaseConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/model/BookModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/model/BorrowModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/AddBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/BorrowOrReturn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/CheckAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/DeleteBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Error3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Error4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Success3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/sonview/Success4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/com/mec/bookmanage/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/j2r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图书管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/model/CarModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/model/PlaceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Allinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Allinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/GetOneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/InorOut$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/InorOut$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/InorOut$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/InorOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Oneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/com/mec/bookmanage/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/model/CarModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/model/PlaceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/Allinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/GetOneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/InorOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/Oneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/com/mec/bookmanage/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../学生管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/DatabaseConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/model/BookModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/model/BorrowModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/AddBook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/AddBook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/AddBook$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/AddBook$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/AddBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/BorrowOrReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/CheckAll$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/CheckAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/DeleteBook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/DeleteBook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/DeleteBook$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/DeleteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Error3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Error4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Success3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/sonview/Success4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/com/mec/bookmanage/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/j2r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/DatabaseConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/model/BookModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/model/BorrowModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/AddBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/BorrowOrReturn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/CheckAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/DeleteBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Error3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Error4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Success3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/sonview/Success4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/com/mec/bookmanage/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/j2r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../药品管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/model/PersonModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/model/TransModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Allinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Allinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Domoney$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Domoney$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Domoney$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Domoney$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Domoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Error3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Error5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Getinfo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Interest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/NewOne$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/NewOne$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/NewOne$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/NewOne$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/NewOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Oneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Transfermoney$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Transfermoney$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Transfermoney$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Transfermoney$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/sonview/Transfermoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/com/mec/bookmanage/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/model/PersonModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/model/TransModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Allinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Domoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Error3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Error5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Getinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Getinfo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Interest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/NewOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Oneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/sonview/Transfermoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/com/mec/bookmanage/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../超市管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/annotation/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/annotation/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/ClassPathAnnotationApplicationContext$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/ClassPathAnnotationApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/ClassPathApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/ClassTableDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/ClassTableFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/PropertyColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/core/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/BKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/IBKmanageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/LoginView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/fatherview/Windowsadapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/model/PersonModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/model/TransModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Allinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Allinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Domoney$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Domoney$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Domoney$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Domoney$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Domoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Error1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Error2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Error3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Error4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Error5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Getinfo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Interest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/NewOne$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/NewOne$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/NewOne$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/NewOne$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/NewOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Oneinfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Success1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Success2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Transfermoney$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Transfermoney$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Transfermoney$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Transfermoney$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/sonview/Transfermoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/com/mec/Bank/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/bin/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/MecUtil.v.0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/annotation/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/annotation/ID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/annotation/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/ClassPathAnnotationApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/ClassPathApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/ClassTableDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/ClassTableFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/PropertyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/core/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/fatherview/BKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/fatherview/IBKmanageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/fatherview/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/fatherview/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/fatherview/Windowsadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/model/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/model/PersonModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/model/TransModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Allinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Domoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Error3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Error4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Error5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Getinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Getinfo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Interest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/NewOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Oneinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Success1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Success2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/sonview/Transfermoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/com/mec/Bank/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/database.cfg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../银行管理系统/src/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/AccessInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/miaosha/dao/GoodsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\学习\文件\Jar包\Maven本地jar包" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="46" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="秒杀系统模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="秒杀系统模块" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="秒杀系统模块" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="秒杀系统模块" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="秒杀系统模块" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\学习\2018秋@java\ToGit\秒杀系统模块\" />
+      <recent name="E:\学习\2018秋@java\ToGit\秒杀系统模块\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30a9f587-7ff2-4a23-ab11-62c076164931" name="Default Changelist" comment="" />
+      <created>1576669732828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576669732828</updated>
+      <workItem from="1576669736157" duration="1113000" />
+      <workItem from="1576670885014" duration="1128000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成版 一些小问题解决了">
+      <created>1576670068007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576670068007</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成版 一些小问题解决了">
+      <created>1576671159662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576671159662</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成版 一些小问题解决了,优化了数据库的部分">
+      <created>1576671751710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576671751710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2241000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成版 一些小问题解决了" />
+    <MESSAGE value="完成版 一些小问题解决了,优化了数据库的部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成版 一些小问题解决了,优化了数据库的部分" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/AccessInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/miaosha/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>miaosha</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
